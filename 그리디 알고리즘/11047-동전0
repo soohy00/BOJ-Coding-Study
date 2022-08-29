@@ -1,0 +1,17 @@
+N, K = map(int, input().split()) 
+coin_list = list()
+for i in range(N):
+    coin_list.append(int(input()))
+
+count = 0
+for i in reversed(range(N)): # 내림차순으로 정렬
+    count += K//coin_list[i] # 몫 만큼 더하기
+    K = K%coin_list[i]   # 나머지 부여
+
+print(count)
+
+'''
+N = 동전들의 종류, K = 수들을 더해 만들어야 할 값
+그리고 동전 리스트를 받고 N수 만큼 돌려 K가 되는 경우를 구하면  됩니다.
+
+'''
