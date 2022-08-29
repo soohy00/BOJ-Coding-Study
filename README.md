@@ -1,2 +1,3 @@
-# -BOJ-Coding-Study
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+## ✧ Introduce
+
+현 레포지토리는 제가 백준을 푸는데 있어 기록을 위해 만들었습니다.
